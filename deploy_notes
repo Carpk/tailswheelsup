@@ -1,0 +1,17 @@
+
+To deploy:
+
+aws s3 sync . s3://tailwheelsup/
+
+aws s3 sync duck-typing s3://shawnklein.net/duck-typing
+aws s3 sync introduction-to-android s3://shawnklein.net/introduction-to-android
+
+To compile:
+
+bundle exec jekyll build
+
+or
+
+bundle exec jekyll serve
+
+
